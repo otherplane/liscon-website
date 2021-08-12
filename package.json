@@ -12,7 +12,6 @@
     "lint": "yarn lint:js && yarn lint:style"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^7.0.1",
     "@nuxtjs/style-resources": "^1.0.0",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",

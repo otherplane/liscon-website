@@ -1,0 +1,21 @@
+@font-face{
+  font-family:"NeueMachina-Ultrabold";
+  src: url(NeueMachina-Ultrabold.otf);
+}
+
+@font-face{
+  font-family:"NeueMachina-Regular";
+  src: url(NeueMachina-Regular.otf);
+}
+
+@font-face{
+  font-family:"NeueMachina-Light";
+  src: url(NeueMachina-Light.otf);
+}
+
+@font-face{
+  font-family: RousseauDeco;
+  src: local("RousseauDeco"),
+  local("RousseauDeco"),
+  url(RousseauDeco.ttf);
+} 
