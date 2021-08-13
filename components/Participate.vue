@@ -4,7 +4,6 @@
     <div class="buttons">
       <Button type="disable">{{ $t('participate.tickets_soon') }}</Button>
       <a
-        class="button"
         rel="noopener noreferrer"
         target="_blank"
         href="https://docs.google.com/forms/d/e/1FAIpQLSfNQA3MKkbA8RQBi6WElz0iLxVW4QG8bBd0HRYeMBAqDdSNAA/viewform"
