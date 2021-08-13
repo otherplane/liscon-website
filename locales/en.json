@@ -10,7 +10,7 @@
         "days": "DAYS",
         "hours": "HR",
         "minutes": "MIN",
-        "seconds": "SECONDS"
+        "seconds": "SEC"
     },
     "banner": {
         "title": "LisCon is the Ethereum Conference for developers, researchers, thinkers and makers",
