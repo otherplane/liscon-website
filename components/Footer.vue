@@ -23,7 +23,7 @@
         /></a>
 
         <a
-          href="https://t.co/G2OzPfrRNd"
+          href="https://t.me/liscon2021"
           target="_blank"
           rel="noopener noreferrer"
           ><img
