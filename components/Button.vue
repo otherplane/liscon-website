@@ -79,7 +79,7 @@ export default {
   border-right: 8px solid transparent;
 }
 .content {
-  padding: 8px 16px 8px 16px;
+  padding: 10px 16px 5px 16px;
 }
 .secondary {
   border: 2px solid $grey;
