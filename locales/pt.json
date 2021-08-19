@@ -1,5 +1,36 @@
 {
     "hero": {
-        "title": "LisCon"
+        "title": "Hello",
+        "date": "*Oct 20-21",
+        "place": "*Lisbon, PT",
+        "title_subtitle": "aaaaaaaaaahhhhhhhhh",
+        "about": "*LisCon is the Ethereum Conference for developers, researchers, thinkers and makers"
+    },
+    "countdown": {
+        "days": "*DAYS",
+        "hours": "*HR",
+        "minutes": "*MIN",
+        "seconds": "*SEC"
+    },
+    "banner": {
+        "title": "*LisCon is the Ethereum Conference for developers, researchers, thinkers and makers",
+        "mission_share": "*Share latest project updates, educate newcomers, engage the community",
+        "mission_celebrate": "*Celebrate Web3 culture & community",
+        "mission_together": "*The perfect opportunity to be together in a beautiful location"
+    },
+    "navbar": {
+        "agenda": "*AGENDA",
+        "info": "*INFo",
+        "speakers": "*SPEAKERS"
+    },
+    "participate": {
+        "title": "*PARTICIPATE",
+        "sponsor": "*SPoNSoR",
+        "apply_to_speak": "*APPLY To SPEAK",
+        "tickets_soon": "*TICKETS SooN"
+    },
+    "footer": {
+        "title": "*LisCon is the Ethereum Conference for developers, researchers, thinkers and makers"
     }
+
 }

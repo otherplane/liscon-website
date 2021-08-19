@@ -1,5 +1,5 @@
 import { languages } from './constants'
-import { fallbackLocale } from './default'
+import { fallbackLocale, defaultLocale } from './default'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -103,7 +103,7 @@ export default {
   modules: ['@nuxtjs/style-resources', 'nuxt-i18n'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~/plugins/vueSelect.js', ssr: false }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
@@ -133,7 +133,7 @@ export default {
       fallbackLocale,
       messages: {
         en: require('./locales/en.json'),
-        es: require('./locales/pt.json'),
+        pt: require('./locales/pt.json'),
       },
     },
     detectBrowserLanguage: {
@@ -142,7 +142,8 @@ export default {
       onlyOnRoot: true,
       alwaysRedirect: true,
     },
-    defaultLocale: 'en',
+    strategy: 'prefix_and_default',
+    defaultLocale,
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},

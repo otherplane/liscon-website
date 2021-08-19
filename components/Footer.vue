@@ -11,26 +11,27 @@
           rel="noopener noreferrer"
           ><img class="media" src="@/assets/email.svg" alt="Email us"
         /></a> -->
-
-        <a
-          href="https://twitter.com/0xliscon"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            class="media"
-            src="@/assets/twitter.svg"
-            alt="Follow us on twitter"
-        /></a>
-
-        <a
-          href="https://t.me/liscon2021"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img
-            class="media"
-            src="@/assets/telegram.svg"
-            alt="Join the telegram group"
-        /></a>
+        <div>
+          <a
+            href="https://twitter.com/0xliscon"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              class="media"
+              src="@/assets/twitter.svg"
+              alt="Follow us on twitter"
+          /></a>
+          <a
+            href="https://t.me/liscon2021"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              class="media"
+              src="@/assets/telegram.svg"
+              alt="Join the telegram group"
+          /></a>
+        </div>
+        <LanguageSelector class="language-selector" />
       </div>
     </div>
   </div>
@@ -54,10 +55,13 @@
     .bottom {
       display: grid;
       width: 100%;
-      grid-template-columns: 1fr auto auto auto;
-      align-items: center;
+      grid-template-columns: 1fr auto;
+      grid-template-rows: auto auto;
+      grid-row-gap: 16px;
+      align-items: flex-end;
 
       .copyright {
+        grid-row: 1 / span 2;
         text-align: left;
         font-weight: bold;
         font-size: 1rem;
