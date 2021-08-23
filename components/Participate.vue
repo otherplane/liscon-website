@@ -2,7 +2,12 @@
   <div class="participate">
     <p class="title">{{ $t('participate.title') }}</p>
     <div class="buttons">
-      <Button type="disable">{{ $t('participate.tickets_soon') }}</Button>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://app.unlock-protocol.com/checkout?redirectUri=http%3A%2F%2Fliscon.org%2F&paywallConfig=%7B%22locks%22%3A%7B%220xeA9265a4ffA137523e83D68D4160325A936ec8b9%22%3A%7B%22network%22%3A1%7D%7D%2C%22persistentCheckout%22%3Atrue%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xeA9265a4ffA137523e83D68D4160325A936ec8b9%2Ficon%22%2C%22metadataInputs%22%3A%5B%7B%22name%22%3A%22Name%22%2C%22type%22%3A%20%22text%22%2C%22required%22%3A%20true%7D%2C%7B%22name%22%3A%22Email%22%2C%22type%22%3A%20%22email%22%2C%22required%22%3A%20true%7D%2C%7B%22name%22%3A%22Where%20are%20you%20coming%20from%3F%22%2C%22type%22%3A%20%22text%22%2C%22required%22%3Afalse%7D%5D%2C%22icon%22%3A%22https%3A%2F%2Flocksmith.unlock-protocol.com%2Flock%2F0xeA9265a4ffA137523e83D68D4160325A936ec8b9%2Ficon%22%2C%22callToAction%22%3A%7B%22default%22%3A%22Purchase%20the%20early-bird%2C%20discounted%20tickets%20for%20LisCon%3A%20Lisbon%27s%20largest%20blockchain%20conference%20on%20October%2020-21.%20Note%3A%20discounted%20tickets%20for%20Portuguese%20citizens%20%26%20students%20will%20be%20available%20at%20a%20later%20date%22%7D%7D"
+        ><Button>{{ $t('participate.buy_ticket') }}</Button></a
+      >
       <a
         rel="noopener noreferrer"
         target="_blank"
