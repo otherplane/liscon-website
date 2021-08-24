@@ -27,8 +27,8 @@
         "title": "PARTICIPATE",
         "sponsor": "SPoNSoR",
         "apply_to_speak": "APPLY To SPEAK",
-        "buy_ticket": "BUY TICKET",
-        "tickets_soon": "TICKETS SooN"
+        "tickets_soon": "TICKETS SooN",
+        "more_tickets_soon": "MoRE TICKETS SooN"
     },
     "footer": {
         "title": "LisCon is the Ethereum Conference for developers, researchers, thinkers and makers"
