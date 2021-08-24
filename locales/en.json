@@ -4,7 +4,7 @@
         "date": "Oct 20-21",
         "place": "Lisbon, PT",
         "title_subtitle": "OCT 20-21 LISBON, PORTUGAL",
-        "about": "LisCon is the Ethereum Conference for developers, researchers, thinkers and makers"
+        "about": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space"
     },
     "countdown": {
         "days": "DAYS",
@@ -13,7 +13,7 @@
         "seconds": "SEC"
     },
     "banner": {
-        "title": "LisCon is the Ethereum Conference for developers, researchers, thinkers and makers",
+        "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space",
         "mission_share": "Share latest project updates, educate newcomers, engage the community",
         "mission_celebrate": "Celebrate Web3 culture & community",
         "mission_together": "The perfect opportunity to be together in a beautiful location"
@@ -31,7 +31,7 @@
         "more_tickets_soon": "MoRE TICKETS SooN"
     },
     "footer": {
-        "title": "LisCon is the Ethereum Conference for developers, researchers, thinkers and makers"
+        "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space"
     }
 
 }

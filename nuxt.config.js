@@ -26,7 +26,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'LisCon is the Ethereum Conference for developers, researchers, thinkers and makers',
+          'LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space',
       },
       {
         hid: 'twitter:title',
@@ -37,7 +37,7 @@ export default {
         hid: 'twitter:description',
         name: 'twitter:description',
         content:
-          'LisCon is the Ethereum Conference for developers, researchers, thinkers and makers',
+          'LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space',
       },
       {
         hid: 'twitter:image',
@@ -58,7 +58,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'LisCon is the Ethereum Conference for developers, researchers, thinkers and makers',
+          'LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space',
       },
       {
         hid: 'og:image',
