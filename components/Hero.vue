@@ -2,7 +2,8 @@
   <div class="hero">
     <div class="logo">
       <img class="icon" src="@/assets/liscon_logo.png" />
-      <p class="date">{{ $t('hero.title_subtitle') }}</p>
+      <p class="subtitle date">{{ $t('hero.title_subtitle') }}</p>
+      <p class="subtitle location">{{ $t('hero.location') }}</p>
       <Button type="style" class="count">
         <Countdown />
       </Button>
@@ -26,6 +27,7 @@
     flex-direction: column;
     justify-content: left;
     padding: 0 1rem;
+    margin-top: 40px;
 
     .icon {
       margin-bottom: 1rem;
@@ -36,13 +38,14 @@
       width: 100%;
       font-size: 1.125rem;
     }
-
-    .date {
+    .location {
+      margin-bottom: 1rem;
+    }
+    .subtitle {
       font-family: 'RousseauDeco', sans-serif;
       color: $blue;
       font-size: 2rem;
       text-align: left;
-      margin-bottom: 1rem;
     }
   }
 }
