@@ -9,11 +9,10 @@
         href="https://docs.google.com/forms/d/e/1FAIpQLSfNQA3MKkbA8RQBi6WElz0iLxVW4QG8bBd0HRYeMBAqDdSNAA/viewform"
         ><Button>{{ $t('participate.apply_to_speak') }}</Button></a
       >
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfNQA3MKkbA8RQBi6WElz0iLxVW4QG8bBd0HRYeMBAqDdSNAA/viewform"
-        rel="noopener noreferrer"
-        target="_blank"
-        ><Button class="button">{{ $t('participate.sponsor') }}</Button></a
+      <a target="_blank">
+        <Button class="button" type="disable">{{
+          $t('participate.sponsor')
+        }}</Button></a
       >
     </div>
   </div>
