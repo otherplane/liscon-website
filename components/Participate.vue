@@ -2,7 +2,12 @@
   <div class="participate">
     <p class="title">{{ $t('participate.title') }}</p>
     <div class="buttons">
-      <Button type="disable">{{ $t('participate.more_tickets_soon') }}</Button>
+      <a
+        rel="noopener noreferrer"
+        target="_blank"
+        href="https://tickets.liscon.org"
+        ><Button>{{ $t('participate.tickets_live') }}</Button></a
+      >
       <a
         rel="noopener noreferrer"
         target="_blank"
