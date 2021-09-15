@@ -30,7 +30,8 @@
         "apply_to_speak": "APPLY To SPEAK",
         "tickets_soon": "TICKETS SooN",
         "more_tickets_soon": "MoRE TICKETS 15 Sep @ 5PM UTC+1",
-	"tickets_live": "BUY TICKETS NOW"
+	"tickets_live": "BUY TICKETS NOW",
+	"tickets_sold_out": "TICKETS SoLD oUT"
     },
     "footer": {
         "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space"
