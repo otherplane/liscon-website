@@ -1,8 +1,11 @@
 <template>
   <div class="wrapper">
     <div class="footer">
-      <img src="@/assets/liscon_white.svg" alt="" class="eth-logo" />
-      <h4 class="title">{{ $t('footer.title') }}</h4>
+      <div class="top">
+        <img src="@/assets/liscon_white.svg" alt="" class="eth-logo" />
+        <h4 class="title">{{ $t('footer.title') }}</h4>
+        <a class="terms" @click="openPdf"> Terms and conditions </a>
+      </div>
       <div class="bottom">
         <p class="copyright">@2021 LisCon</p>
         <!-- <a
@@ -36,6 +39,17 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    openPdf() {
+      const pdf = require('../assets/terms-conditions.pdf')
+      window.open(pdf)
+    },
+  },
+}
+</script>
+
 <style scoped lang="scss">
 .wrapper {
   width: 100%;
@@ -50,6 +64,36 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
+
+    .top {
+      display: grid;
+      grid-template: 1fr / repeat(auto-fit, 1fr);
+      grid-gap: 16px;
+
+      .terms {
+        color: $white;
+        align-self: flex-end;
+        justify-self: flex-end;
+        margin-bottom: 32px;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .title {
+        width: 90%;
+        text-align: left;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+        max-width: 300px;
+        font-weight: lighter;
+      }
+
+      .eth-logo {
+        grid-column: 1 / span 2;
+        margin-bottom: 0.4rem;
+        width: 160px;
+      }
+    }
 
     .bottom {
       display: grid;
@@ -66,20 +110,6 @@
       .media {
         margin-right: 0.5rem;
       }
-    }
-
-    .title {
-      width: 90%;
-      text-align: left;
-      margin-bottom: 2rem;
-      font-size: 1rem;
-      max-width: 300px;
-      font-weight: lighter;
-    }
-
-    .eth-logo {
-      margin-bottom: 0.4rem;
-      width: 160px;
     }
   }
 }
