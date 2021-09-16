@@ -1,12 +1,11 @@
 <template>
   <div class="main">
-    <Marquee />
     <div class="content">
       <Hero />
       <Banner />
       <Sponsors />
+      <SpeakersSection />
       <Participate />
-      <Footer />
     </div>
   </div>
 </template>

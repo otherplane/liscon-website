@@ -40,6 +40,15 @@
         "silver": "SILVER",
         "partner": "COMMUNITY PARTNER"
     },
+    "speakers": {
+        "title": "SPEAKERS",
+        "see_all": "SEE ALL",
+        "section_content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+    },
+    "speakers_list": {
+        "become_speaker": "Become a LisCon speaker",
+        "apply": "APPLY TO SPEAK"
+    },
     "footer": {
         "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space",
         "invitation_letter": "Request an invitation letter",

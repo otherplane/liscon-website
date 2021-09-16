@@ -33,7 +33,7 @@
   background-image: url('@/assets/building.svg');
   background-repeat: no-repeat;
   background-position: center;
-  margin: 2rem 0;
+  margin: 4rem 0;
 
   .title {
     font-size: 3.5rem;
