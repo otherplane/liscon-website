@@ -4,7 +4,12 @@
       <div class="top">
         <img src="@/assets/liscon_white.svg" alt="" class="eth-logo" />
         <h4 class="title">{{ $t('footer.title') }}</h4>
-        <a class="terms" @click="openPdf"> Terms and conditions </a>
+        <div class="links">
+          <a target="_blank" rel="noopener noreferrer">{{
+            $t('footer.invitation_letter')
+          }}</a>
+          <a @click="openPdf">{{ $t('footer.terms') }}</a>
+        </div>
       </div>
       <div class="bottom">
         <p class="copyright">@2021 LisCon</p>
@@ -70,13 +75,20 @@ export default {
       grid-template: 1fr / repeat(auto-fit, 1fr);
       grid-gap: 16px;
 
-      .terms {
-        color: $white;
-        align-self: flex-end;
-        justify-self: flex-end;
-        margin-bottom: 32px;
-        text-decoration: underline;
-        cursor: pointer;
+      .links {
+        display: flex;
+        flex-direction: column;
+        // align-self: flex-end;
+        // justify-self: flex-end;
+        margin-bottom: 8px;
+        text-align: right;
+
+        a {
+          color: $white;
+          margin-bottom: 8px;
+          text-decoration: underline;
+          cursor: pointer;
+        }
       }
 
       .title {
