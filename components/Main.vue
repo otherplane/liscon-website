@@ -4,6 +4,7 @@
     <div class="content">
       <Hero />
       <Banner />
+      <Sponsors />
       <Participate />
       <Footer />
     </div>
