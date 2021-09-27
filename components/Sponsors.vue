@@ -1,18 +1,19 @@
 <template>
-  <div class="speakers">
+  <div class="sponsors">
     <p class="title">{{ $t('sponsors.title') }}</p>
     <div class="content">
       <a
         v-for="sponsor in sponsors"
         :key="sponsor.url"
         class="link"
-        taget="_blank"
+        target="_blank"
         :href="sponsor.url"
       >
         <img
+          :title="sponsor.name"
           :class="[sponsor.type, 'img']"
-          :src="require(`@/assets/${sponsor.img}.png`)"
-          alt="liscon speakers"
+          :src="require(`@/assets/${sponsor.img}`)"
+          alt="liscon sponsors"
         />
       </a>
     </div>
@@ -33,17 +34,33 @@ export default {
 <style lang="scss" scoped>
 .img {
   width: 100%;
-  &.bronze {
-    width: 80px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%) contrast(70%) brightness(110%);
+  transition: filter 0.3s ease-in-out;
+  &:hover {
+    filter: grayscale(0%);
+  }
+  &.round {
+    border-radius: 50%;
+  }
+  &.platinum {
+    width: 70px;
+    max-height: 70px;
+  }
+  &.partner {
+    width: 50px;
+    max-height: 60px;
   }
   &.gold {
     width: 150px;
+    max-height: 150px;
   }
   &.silver {
-    width: 100px;
+    width: 90px;
+    max-height: 90px;
   }
 }
-.speakers {
+.sponsors {
   width: 100%;
   text-align: center;
   display: flex;
@@ -61,13 +78,14 @@ export default {
   }
   .content {
     display: grid;
-    grid-template-columns: repeat(4, max-content);
+    align-items: center;
+    grid-template-columns: repeat(7, max-content);
     grid-gap: 32px;
     margin: 48px;
   }
 }
 @media (max-width: 1200px) {
-  .speakers {
+  .sponsors {
     .content {
       grid-template-columns: repeat(3, max-content);
       row-gap: 32px;
@@ -75,7 +93,7 @@ export default {
   }
 }
 @media (max-width: 680px) {
-  .speakers {
+  .sponsors {
     .content {
       grid-template-columns: repeat(2, max-content);
     }
