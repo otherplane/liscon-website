@@ -34,7 +34,11 @@
 	    "tickets_sold_out": "TICKETS SoLD oUT"
     },
     "sponsors": {
-        "title": "SPONSORS"
+        "title": "SPONSORS",
+        "platinum": "PLATINUM",
+        "gold": "GOLD",
+        "silver": "SILVER",
+        "partner": "COMMUNITY PARTNER"
     },
     "footer": {
         "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space",

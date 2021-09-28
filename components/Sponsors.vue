@@ -1,9 +1,61 @@
 <template>
   <div class="sponsors">
     <p class="title">{{ $t('sponsors.title') }}</p>
-    <div class="content">
+    <p class="subtitle">{{ $t('sponsors.platinum') }}</p>
+    <div class="content platinum">
       <a
-        v-for="sponsor in sponsors"
+        v-for="sponsor in platinum"
+        :key="sponsor.url"
+        class="link"
+        target="_blank"
+        :href="sponsor.url"
+      >
+        <img
+          :title="sponsor.name"
+          :class="[sponsor.type, 'img']"
+          :src="require(`@/assets/${sponsor.img}`)"
+          alt="liscon sponsors"
+        />
+      </a>
+    </div>
+    <p class="subtitle">{{ $t('sponsors.gold') }}</p>
+    <div class="content gold">
+      <a
+        v-for="sponsor in gold"
+        :key="sponsor.url"
+        class="link"
+        target="_blank"
+        :href="sponsor.url"
+      >
+        <img
+          :title="sponsor.name"
+          :class="[sponsor.type, 'img']"
+          :src="require(`@/assets/${sponsor.img}`)"
+          alt="liscon sponsors"
+        />
+      </a>
+    </div>
+    <p class="subtitle">{{ $t('sponsors.silver') }}</p>
+    <div class="content silver">
+      <a
+        v-for="sponsor in silver"
+        :key="sponsor.url"
+        class="link"
+        target="_blank"
+        :href="sponsor.url"
+      >
+        <img
+          :title="sponsor.name"
+          :class="[sponsor.type, 'img']"
+          :src="require(`@/assets/${sponsor.img}`)"
+          alt="liscon sponsors"
+        />
+      </a>
+    </div>
+    <p class="subtitle">{{ $t('sponsors.partner') }}</p>
+    <div class="content partner">
+      <a
+        v-for="sponsor in partner"
         :key="sponsor.url"
         class="link"
         target="_blank"
@@ -28,6 +80,22 @@ export default {
       sponsors: SPONSORS,
     }
   },
+  computed: {
+    platinum() {
+      return this.sponsors.filter((sponsor) =>
+        sponsor.type.includes('platinum')
+      )
+    },
+    gold() {
+      return this.sponsors.filter((sponsor) => sponsor.type.includes('gold'))
+    },
+    silver() {
+      return this.sponsors.filter((sponsor) => sponsor.type.includes('silver'))
+    },
+    partner() {
+      return this.sponsors.filter((sponsor) => sponsor.type.includes('partner'))
+    },
+  },
 }
 </script>
 
@@ -44,20 +112,20 @@ export default {
     border-radius: 50%;
   }
   &.platinum {
-    width: 70px;
-    max-height: 70px;
-  }
-  &.partner {
-    width: 50px;
-    max-height: 60px;
-  }
-  &.gold {
     width: 150px;
     max-height: 150px;
   }
-  &.silver {
+  &.partner {
+    width: 50px;
+    max-height: 50px;
+  }
+  &.gold {
     width: 90px;
     max-height: 90px;
+  }
+  &.silver {
+    width: 70px;
+    max-height: 70px;
   }
 }
 .sponsors {
@@ -76,26 +144,28 @@ export default {
     color: $blue;
     font-family: 'RousseauDeco', sans-serif;
   }
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: $blue;
+    font-family: 'RousseauDeco', sans-serif;
+  }
   .content {
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(7, max-content);
     grid-gap: 32px;
     margin: 48px;
-  }
-}
-@media (max-width: 1200px) {
-  .sponsors {
-    .content {
-      grid-template-columns: repeat(3, max-content);
-      row-gap: 32px;
-    }
-  }
-}
-@media (max-width: 680px) {
-  .sponsors {
-    .content {
+    &.platinum {
       grid-template-columns: repeat(2, max-content);
+    }
+    &.gold {
+      grid-template-columns: repeat(3, max-content);
+    }
+    &.silver {
+      grid-template-columns: repeat(3, max-content);
+    }
+    &.partner {
+      grid-template-columns: repeat(4, max-content);
     }
   }
 }

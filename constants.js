@@ -14,6 +14,18 @@ export const languages = [
 
 export const SPONSORS = [
   {
+    url: 'https://1inch.io/',
+    name: '1 inch',
+    img: '1inch-logo.svg',
+    type: 'platinum',
+  },
+  {
+    url: 'https://thegraph.com/',
+    name: 'The graph',
+    img: 'thegraph-logo.svg',
+    type: 'platinum',
+  },
+  {
     url: 'https://www.orchid.com/',
     name: 'Orchid',
     img: 'orchid-logo.svg',
@@ -66,18 +78,6 @@ export const SPONSORS = [
     name: 'Spectral finance',
     img: 'spectral-logo.svg',
     type: 'silver',
-  },
-  {
-    url: 'https://1inch.io/',
-    name: '1 inch',
-    img: '1inch-logo.svg',
-    type: 'platinum',
-  },
-  {
-    url: 'https://thegraph.com/',
-    name: 'The graph',
-    img: 'thegraph-logo.svg',
-    type: 'platinum',
   },
   {
     url: 'https://witnet.io/',
