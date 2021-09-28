@@ -122,7 +122,7 @@ export const SPONSORS = [
     type: 'partner',
   },
   {
-    url: 'https://docs.celo.org/celo-codebase/protocol/optics',
+    url: 'https://medium.com/celoorg/announcing-optics-a-gas-efficient-interoperability-standard-for-cross-chain-communication-e597163b2',
     name: 'Optics',
     img: 'optics-logo.png',
     type: 'partner',
