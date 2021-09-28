@@ -148,7 +148,7 @@ export const SPONSORS = [
   {
     url: 'https://simplefi.finance/',
     name: 'SimpleFi',
-    img: 'simplefi-logo.svg',
+    img: 'simplefi-logo.png',
     type: 'partner',
   },
   {
