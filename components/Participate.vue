@@ -7,10 +7,7 @@
           $t('participate.tickets_sold_out')
         }}</Button></a
       >
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfNQA3MKkbA8RQBi6WElz0iLxVW4QG8bBd0HRYeMBAqDdSNAA/viewform"
+      <a target="_blank"
         ><Button type="disable">{{
           $t('participate.apply_to_speak')
         }}</Button></a
