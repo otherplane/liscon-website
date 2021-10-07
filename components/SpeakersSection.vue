@@ -4,7 +4,7 @@
     <div class="content">
       <img
         class="img"
-        src="@/assets/speaker-section-img.svg"
+        src="@/assets/speaker-section.svg"
         alt="liscon speakers"
       />
       <p class="text">{{ $t('speakers.section_content') }}</p>
