@@ -40,6 +40,11 @@
         "silver": "SILVER",
         "partner": "COMMUNITY PARTNER"
     },
+    "agenda": {
+        "title": "AGENDA",
+        "subtitle": "Check out other events",
+        "see_more": "See more"
+    },
     "speakers": {
         "title": "SPEAKERS",
         "see_all": "SEE ALL",

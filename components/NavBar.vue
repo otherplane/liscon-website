@@ -12,21 +12,15 @@
       <transition name="dropdown" class="dropdown">
         <ul class="tab-container" :class="{ visible: isMenuVisible }">
           <li class="tab" @mouseover="hover = true" @mouseleave="hover = false">
-            <a class="tab" href="#">
+            <a class="tab" href="/agenda">
               <span class="slash">/</span>
               <span class="text">{{ $t('navbar.agenda') }}</span>
             </a>
           </li>
           <li class="tab" @mouseover="hover = true" @mouseleave="hover = false">
-            <a class="tab" href="#">
+            <a class="tab" href="/speakers">
               <span class="slash">/</span>
               <span class="text">{{ $t('navbar.speakers') }}</span>
-            </a>
-          </li>
-          <li class="tab" @mouseover="hover = true" @mouseleave="hover = false">
-            <a class="tab" href="#">
-              <span class="slash">/</span>
-              <span class="text">{{ $t('navbar.info') }}</span>
             </a>
           </li>
         </ul>
@@ -66,7 +60,7 @@ export default {
   display: flex;
   position: absolute;
   left: 0;
-  right: 0;
+  right: 32px;
   top: 20;
   background: transparent;
   justify-content: flex-end;
