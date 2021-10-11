@@ -1,12 +1,11 @@
 <template>
   <div class="main">
-    <Marquee />
+    <NavBar />
     <div class="content">
       <Hero />
       <Banner />
       <Sponsors />
       <Participate />
-      <Footer />
     </div>
   </div>
 </template>
@@ -15,9 +14,6 @@
 .main {
   width: 100%;
   text-align: center;
-  // .content {
-  //   margin-top: 20vh;
-  // }
 
   .logo {
     width: 300px;

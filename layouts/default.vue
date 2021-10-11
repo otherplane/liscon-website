@@ -1,6 +1,8 @@
 <template>
   <div class="background">
+    <Marquee />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 

@@ -12,6 +12,17 @@ export const languages = [
   },
 ]
 
+export const DAYS = {
+  20: {
+    key: '20',
+    name: 'Wed',
+  },
+  21: {
+    key: '21',
+    name: 'Thur',
+  },
+}
+
 export const SPONSORS = [
   {
     url: 'https://1inch.io/',
