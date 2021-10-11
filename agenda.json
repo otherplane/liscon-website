@@ -34,7 +34,7 @@
     "topic": "ORG TEAM",
     "title": "LisCon House Rules",
     "type": "talk",
-    "speaker": "",
+    "speaker": "Org team",
     "company": "",
     "room": "Main Stage"
   },
@@ -581,7 +581,7 @@
     "topic": "CLOSING",
     "title": "Closing ceremony",
     "type": "",
-    "speaker": "",
+    "speaker": "Org team",
     "company": "",
     "room": "Main Stage"
   },
