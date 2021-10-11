@@ -135,7 +135,7 @@ export const SPONSORS = [
   {
     url: 'https://medium.com/celoorg/announcing-optics-a-gas-efficient-interoperability-standard-for-cross-chain-communication-e597163b2',
     name: 'Optics',
-    img: 'optics-logo.png',
+    img: 'optics-logo.svg',
     type: 'partner',
   },
   {
