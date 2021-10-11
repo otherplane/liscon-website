@@ -48,7 +48,7 @@
     "title": "Are we there yet? How long to web3",
     "type": "talk",
     "speaker": "Yaniv Tal",
-    "company": "THE GRAPH",
+    "company": "The Graph",
     "room": "Main Stage"
   },
   {
@@ -87,7 +87,7 @@
     "title": "ENS as your web3 username and more",
     "type": "talk",
     "speaker": "Makoto Inoue",
-    "company": "ens",
+    "company": "ENS",
     "room": "Main Stage"
   },
   {
@@ -99,7 +99,7 @@
     "topic": "Layers, Future, Vibes",
     "title": "Education in web3 - history, trends, the future",
     "type": "talk",
-    "speaker": "Aditi Sriram - The Graph, Abbey Titcomb - Radicle, Bryan Flynn - Rabbithole, Simona Pop - Status",
+    "speaker": "Aditi Sriram",
     "company": "Edge & Node",
     "room": "Main Stage"
   },
@@ -191,7 +191,7 @@
     "title": "The Cryptopunk Ethos and the Future of Freedom",
     "type": "talk",
     "speaker": "Seven Waterhouse",
-    "company": "ORCHID",
+    "company": "Orchid",
     "room": "Main Stage"
   },
   {
@@ -313,7 +313,7 @@
   },
   {
     "miniSummit": "Coordination & Digital Orgs",
-    "day": "21",
+    "day": "20",
     "startTime": "5:50 PM",
     "endTime": "6:10 PM",
     "length": 20,
@@ -336,7 +336,7 @@
     "type": "talk",
     "speaker": "Mounir Benchemled",
     "room": "Main Stage",
-    "company": "PARASWAP"
+    "company": "ParaSwap"
   },
   {
     "miniSummit": "DeFi & Value Flows",
@@ -401,7 +401,7 @@
     "type": "talk",
     "speaker": "Anton Bukov",
     "room": "Main Stage",
-    "company": "1INCH"
+    "company": "1inch"
   },
   {
     "miniSummit": "DeFi & Value Flows",
@@ -531,7 +531,7 @@
     "type": "talk",
     "speaker": "Alexander Guy",
     "room": "Main Stage",
-    "company": "ZERION"
+    "company": "Zerion"
   },
   {
     "miniSummit": "NFTs & the Creator Economy",
@@ -692,7 +692,7 @@
     "title": "Building Infrastructure for the Web3 Ecosystem",
     "type": "Workshop",
     "speaker": "Liesl Eichholz",
-    "company": "Chainsafe",
+    "company": "ChainSafe",
 
     "room": "Side Stage"
   },
@@ -720,7 +720,7 @@
     "title": "Realizing the Light-client dream in Eth2.0",
     "type": "talk",
     "speaker": "Lion Dapplion",
-    "company": "Chainsafe",
+    "company": "ChainSafe",
 
     "room": "Side Stage"
   },
