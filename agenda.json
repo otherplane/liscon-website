@@ -35,7 +35,7 @@
     "title": "LisCon House Rules",
     "type": "talk",
     "speaker": "",
-    "company": "Org team",
+    "company": "",
     "room": "Main Stage"
   },
   {
@@ -176,8 +176,8 @@
     "length": 30,
     "topic": "Layers, Future, Vibes",
     "title": "Education in web3",
-    "type": "Panel",
-    "speaker": "Aditi Sriram (The Graph), Abbey Titcombe (Radicle), Bryan Flynn (Rabbithole), Simona Pop (Status)",
+    "type": "panel",
+    "speaker": "Aditi Sriram - The Graph, Abbey Titcombe - Radicle, Bryan Flynn - Rabbithole, Simona Pop - Status",
     "company": "Mix",
     "room": "Main Stage"
   },
@@ -229,7 +229,7 @@
     "topic": "Coordination & Digital Orgs",
     "title": "How to scale a DAO",
     "type": "talk",
-    "speaker": "Juan - SES MakerDAO",
+    "speaker": "Juan",
     "company": "SES MakerDAO",
     "room": "Main Stage"
   },
@@ -267,7 +267,7 @@
     "length": 30,
     "topic": "Coordination & Digital Orgs",
     "title": "Launching & cooridnating decentralised governance",
-    "type": "Panel",
+    "type": "panel",
     "speaker": "James Waugh- DAOHaus, Kain Warwick - Synthetix, Julia Rosenberg - Orca Protocol, Yaniv Tal - The Graph",
     "company": "Mix",
     "room": "Main Stage"
@@ -293,7 +293,7 @@
     "length": 30,
     "topic": "Coordination & Digital Orgs",
     "title": "Venture 3.0 for Web 3.0",
-    "type": "Panel",
+    "type": "panel",
     "speaker": "Nima Ashgari - SeedClub Ventures, Julia Lipton - Awesome People Ventures, Jihad Esmail - SyndicateDAO, Manasi Vora - Komorebi Fund",
     "company": "",
     "room": "Main Stage"
@@ -385,8 +385,8 @@
     "length": 30,
     "topic": "DeFi & Value Flows",
     "title": "DeFi UX: Where are we?",
-    "type": "Panel",
-    "speaker": "Hester Bruikham, Carl Fairclough (Status), Seb Audet @ Zapper, Sergej Kunz @ 1inch, Soren Peter Nielsen @ Oasis",
+    "type": "panel",
+    "speaker": "Hester Bruikham, Carl Fairclough - Status, Seb Audet - Zapper, Sergej Kunz - 1inch, Soren Peter Nielsen - Oasis",
     "room": "Main Stage",
     "company": "Mix"
   },
@@ -450,7 +450,7 @@
     "length": 20,
     "topic": "DeFi & Value Flows",
     "title": "Gnosis Safe beyond Multisig",
-    "type": "Panel",
+    "type": "panel",
     "speaker": "Richard Meissner",
     "room": "Main Stage",
     "company": "Gnosis"
@@ -489,8 +489,8 @@
     "length": 30,
     "topic": "NFTs & Creator Economy",
     "title": "Gaming & Crypto",
-    "type": "Panel",
-    "speaker": "Loren Roosendaal (Ember Sword), Jarrell James (Celo), Andrew Campbell (Axie Infinity), Simone Conti (Dialectic)",
+    "type": "panel",
+    "speaker": "Loren Roosendaal - Ember Sword, Jarrell James - Celo, Andrew Campbell - Axie Infinity, Simone Conti - Dialectic",
     "room": "Main Stage",
     "company": "Mix"
   },
@@ -501,8 +501,8 @@
     "endTime": "3:00 PM",
     "length": 30,
     "topic": "NFTs & Creator Economy",
-    "title": "TB D",
-    "type": "Panel",
+    "title": "TBD",
+    "type": "panel",
     "speaker": "Lili Feyerabend, Will Papper, Santiago R Santos",
     "room": "Main Stage",
     "company": "Mix"
@@ -541,8 +541,8 @@
     "length": 30,
     "topic": "NFTs & Creator Economy",
     "title": "The Art of Social Impact",
-    "type": "Panel",
-    "speaker": "Carolin Wend (Mintbase) mod, Numan Khan (artist), Oficinas TK (Nft artist), Graham de Barra (gallery)",
+    "type": "panel",
+    "speaker": "Carolin Wend - Mintbase (mod), Numan Khan (artist), Oficinas TK (Nft artist), Graham de Barra (gallery)",
     "room": "Main Stage",
     "company": ""
   },
@@ -557,7 +557,7 @@
     "type": "talk",
     "speaker": "Ix Shells",
     "room": "Main Stage",
-    "company": ""
+    "company": "?"
   },
   {
     "miniSummit": "NFTs & the Creator Economy",
@@ -567,7 +567,7 @@
     "length": 30,
     "topic": "NFTs & Creator Economy",
     "title": "Art in conversation",
-    "type": "Panel",
+    "type": "panel",
     "speaker": "Mattia Cuttini & Oficinas TK",
     "company": "",
     "room": "Main Stage"
@@ -594,8 +594,8 @@
     "topic": "Side Stage",
     "title": "The power of the hive mind in DAOs",
     "type": "Workshop",
-    "speaker": "Chris Cable  (Flamingo Member) and Fabian Wetekamp (LAO Member)",
-    "company": "Flamingo DAO + LAO",
+    "speaker": "Chris Cable - Flamingo Member, Fabian Wetekamp - LAO Member",
+    "company": "",
     "room": "Side Stage"
   },
   {
@@ -916,7 +916,7 @@
     "topic": "Side Stage",
     "title": "DECENTRALIZED SCIENCE",
     "type": "panel",
-    "speaker": "Bianca Trovò",
+    "speaker": "Bianca Trovò - Ants Review, Sarah Hamburg - Opscientia, Tyler Golato - VitaDAO",
 
     "room": "Side Stage",
     "company": "Mix"
@@ -1013,7 +1013,7 @@
     "length": 30,
     "topic": "Side Stage",
     "title": "DIDs: An ongoing conversation",
-    "type": "PANEL",
+    "type": "panel",
     "speaker": "MIX",
 
     "room": "Side Stage",
@@ -1140,8 +1140,7 @@
     "topic": "Side Stage",
     "title": "Challenges Of Running A DAO",
     "type": "workshop",
-    "speaker": "Juri Mailbaum (DeFi Times) mod, Matteo Pandolfi (Idle Finance), Denis Devcic (Idle Finance)",
-
+    "speaker": "Juri Mailbaum - DeFi Times (mod), Matteo Pandolfi - Idle Finance, Denis Devcic - Idle Finance",
     "room": "Side Stage",
     "company": "Mix"
   },

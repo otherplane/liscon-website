@@ -16,12 +16,12 @@
       <div v-if="filteredEvents.length" class="events-list">
         <div
           v-for="event in filteredEvents"
-          :key="event.title"
+          :key="event.fullSpeaker"
           class="row"
           :class="{ current: event.current }"
         >
           <p class="col">{{ event.startTime }} - {{ event.endTime }}</p>
-          <p class="col">{{ event.speaker }}</p>
+          <p class="col">{{ event.fullSpeaker }}</p>
           <p class="col">{{ event.title }}</p>
           <div class="col categories">
             <p class="label" :class="{ current: event.current }">
@@ -48,7 +48,23 @@ export default {
       currentDay: new Date().getUTCDate() === 21 ? '21' : '20',
       currentEvent: null,
       isModalVisible: false,
-      events: agenda,
+      events: agenda.map((talk) => {
+        let fullSpeaker = ''
+        if (talk.type === 'panel') {
+          fullSpeaker = talk.speaker
+        } else if (talk.speaker && talk.company) {
+          fullSpeaker = `${talk.speaker} - ${talk.company}`
+        } else if (!talk.company) {
+          fullSpeaker = `${talk.speaker}`
+        } else if (!talk.speaker) {
+          fullSpeaker = `${talk.company}`
+        }
+
+        return {
+          ...talk,
+          fullSpeaker,
+        }
+      }),
     }
   },
   watch: {
