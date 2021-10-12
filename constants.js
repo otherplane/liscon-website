@@ -79,8 +79,8 @@ export const SPONSORS = [
     type: 'silver',
   },
   {
-    url: 'https://gnosis.io/',
-    name: 'Gnosis',
+    url: 'https://cowswap.exchange/',
+    name: 'CowSwap',
     img: 'gnosis-logo.svg',
     type: 'silver',
   },
