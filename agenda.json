@@ -268,7 +268,7 @@
     "topic": "Coordination & Digital Orgs",
     "title": "Launching & coordinating decentralised governance",
     "type": "panel",
-    "speaker": "James Waugh- DAOHaus, Kain Warwick - Synthetix, Julia Rosenberg - Orca Protocol, Yaniv Tal - The Graph",
+    "speaker": "James Waugh - 🔥_🔥, Kain Warwick - Synthetix, Julia Rosenberg - Orca Protocol, Yaniv Tal - The Graph",
     "company": "Mix",
     "room": "Main Stage"
   },
@@ -464,9 +464,9 @@
     "topic": "DeFi & Value Flows",
     "title": "Virtual communities in a physical world",
     "type": "talk",
-    "speaker": "David Mihal",
+    "speaker": "David Mihal, Gonçalo Magalhães",
     "room": "Main Stage",
-    "company": "?"
+    "company": "Offchain.city"
   },
   {
     "miniSummit": "DeFi & Value Flows",
@@ -490,7 +490,7 @@
     "topic": "NFTs & Creator Economy",
     "title": "Gaming & Crypto",
     "type": "panel",
-    "speaker": "Loren Roosendaal - Ember Sword, Jarrell James - Celo, Andrew Campbell - Axie Infinity, Simone Conti - Dialectic",
+    "speaker": "Loren Roosendaal - Ember Sword, Jarrell James - Celo, Andrew Campbell - Axie Infinity, Simone Conti - Dialectic, Jose Maria Macedo - Delphi Digital",
     "room": "Main Stage",
     "company": "Mix"
   },
@@ -553,11 +553,11 @@
     "endTime": "4:30 PM",
     "length": 20,
     "topic": "NFTs & Creator Economy",
-    "title": "Lost In The Metaverse: Meet Itzel Yard Aka IX Shells, The Highest-Selling Female NFT Artist",
+    "title": "Lost In The Metaverse",
     "type": "talk",
-    "speaker": "Ix Shells",
+    "speaker": "Ix Shells & Rahilla Zafar",
     "room": "Main Stage",
-    "company": "?"
+    "company": ""
   },
   {
     "miniSummit": "NFTs & the Creator Economy",
@@ -633,7 +633,7 @@
     "endTime": "11:20 AM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Ideal in Theory: The Complicated Realities of On-Chain Voting and How We Can Fix It",
+    "title": "Bringing Ethereum Compatibility to the Polkadot/Kusama Ecosystem",
     "type": "Workshop",
     "speaker": "Alberto Viera",
     "company": "Pure Stake",
@@ -661,9 +661,9 @@
     "endTime": "12:00 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "How tornado cash works",
+    "title": "Evolution of Tornado.cash protocol",
     "type": "Workshop",
-    "speaker": "Roman Storm",
+    "speaker": "Roman Storm & Roman Semenov",
     "company": "Tornado Cash",
 
     "room": "Side Stage"
@@ -746,7 +746,7 @@
     "length": 20,
     "topic": "Side Stage",
     "title": "Market Making in DeFi",
-    "type": "workshop",
+    "type": "Workshop",
     "speaker": "Theo Gonella",
     "company": "0xProject",
 
@@ -859,7 +859,7 @@
     "topic": "Side Stage",
     "title": "Decentralized Asset Custody",
     "type": "Workshop",
-    "speaker": "Tux",
+    "speaker": "Tux Pacific",
     "company": "Entropy",
 
     "room": "Side Stage"
@@ -1014,7 +1014,7 @@
     "topic": "Side Stage",
     "title": "DIDs: An ongoing conversation",
     "type": "panel",
-    "speaker": "MIX",
+    "speaker": "Pelle Brændgaard - Nota Bene, Lauren Feld - 3Box, Oliver Terbu - Consensys Mesh",
 
     "room": "Side Stage",
     "company": "Mix"
@@ -1110,7 +1110,7 @@
     "endTime": "4:00 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "How to make VC appended to you",
+    "title": "How to make VCs ape into your project",
     "type": "workshop",
     "speaker": "Steven Waterhouse and Richard Muirhead",
 
@@ -1161,13 +1161,13 @@
   {
     "miniSummit": "",
     "day": "21",
-    "startTime": "5:05 PM",
-    "endTime": "5:25 PM",
+    "startTime": "1:10 PM",
+    "endTime": "1.40 PM",
     "length": 20,
     "topic": "Side Stage",
     "title": "History and Future of EVM",
     "type": "Workshop",
-    "speaker": "Paweł Bylica",
+    "speaker": "Paweł Bylica & Alex Beregszaszi",
     "room": "Side Stage",
     "company": "EF"
   },
@@ -1179,7 +1179,7 @@
     "length": 20,
     "topic": "Side Stage",
     "title": "DeFi porn: rewinding the data",
-    "type": "workshop",
+    "type": "Workshop",
     "speaker": "Raphaël Mazet",
     "room": "Side Stage",
     "company": "SimpleFi"
@@ -1192,9 +1192,48 @@
     "length": 20,
     "topic": "Side Stage",
     "title": "Future of the decentralized web",
-    "type": "workshop",
+    "type": "Workshop",
     "speaker": "Bogdan Gusiev",
     "company": "Unstoppable Domains",
+    "room": "Side Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "20",
+    "startTime": "1:40 PM",
+    "endTime": "2:00 PM",
+    "length": 20,
+    "topic": "Side Stage",
+    "title": "Bridging Web2 Creatives into Web3",
+    "type": "Workshop",
+    "speaker": "Alex Zhang",
+    "company": "FwB",
+    "room": "Side Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "21",
+    "startTime": "1:40 PM",
+    "endTime": "2:00 PM",
+    "length": 20,
+    "topic": "Side Stage",
+    "title": "How developers can build automated dapps",
+    "type": "Workshop",
+    "speaker": "Hilmar Maximilian Orth",
+    "company": "Gelato",
+    "room": "Side Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "21",
+    "startTime": "2:00 PM",
+    "endTime": "2:20 PM",
+    "length": 20,
+    "topic": "Side Stage",
+    "title": "Real World DeFi",
+    "type": "Workshop",
+    "speaker": "Lea Schmitt & Jeroen Offerjins",
+    "company": "Centrifuge",
     "room": "Side Stage"
   }
 ]
