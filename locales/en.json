@@ -22,7 +22,8 @@
     "navbar": {
         "agenda": "AGENDA",
         "info": "INFo",
-        "home": "HoME"
+        "home": "HoME",
+        "nft": "NFT GALLERY"
     },
     "participate": {
         "title": "PARTICIPATE",
@@ -44,6 +45,10 @@
         "title": "AGENDA",
         "subtitle": "Check out other events",
         "see_more": "See more"
+    },
+    "nft": {
+        "title": "NFTs",
+        "go_to_auction": "Go To AUCTION"
     },
     "speakers": {
         "title": "SPEAKERS",

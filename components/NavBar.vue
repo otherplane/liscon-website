@@ -41,6 +41,19 @@
             }}</span>
           </nav-link>
         </router-link>
+        <router-link
+          v-slot="{ isExactActive, href, navigate }"
+          custom
+          class="tab"
+          to="/nft"
+        >
+          <nav-link :href="href" @click="navigate">
+            <span class="slash">/</span>
+            <span class="text" :class="{ active: isExactActive }">{{
+              $t('navbar.nft')
+            }}</span>
+          </nav-link>
+        </router-link>
       </li>
     </ul>
   </nav>
