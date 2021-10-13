@@ -11,7 +11,7 @@
         <p>{{ event.startTime }} - {{ event.endTime }}</p>
         <a
           class="link-calendar"
-          :href="`https://www.google.com/calendar/render?action=TEMPLATE&text=${event.title}&location=lxfactory%20${event.room}&dates=${event.startTime}%2F${event.endTime}&details=${event.fullSpeaker}`"
+          :href="generateGoogleCalendarUrl(event)"
           target="_blank"
           >Add to calendar</a
         >
@@ -28,6 +28,8 @@
 </template>
 
 <script>
+import { generateGoogleCalendarUrl } from '../utils'
+
 export default {
   props: {
     events: {
@@ -38,6 +40,9 @@ export default {
       type: String,
       default: '',
     },
+  },
+  methods: {
+    generateGoogleCalendarUrl,
   },
 }
 </script>
@@ -70,15 +75,19 @@ export default {
         font-size: 14px;
       }
 
-      &.categories {
-        justify-content: flex-end;
-      }
-
       .label {
         border: 1px solid $black;
         width: max-content;
         padding: 4px 8px;
       }
+
+      &.categories {
+        justify-content: flex-end;
+        .label {
+          width: 100%;
+        }
+      }
+
       .current {
         &.label {
           border: 1px solid $blue;
