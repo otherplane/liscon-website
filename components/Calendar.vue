@@ -27,25 +27,6 @@
         :events="filteredEvents.sideStage"
         stage="Side stage"
       />
-
-      <!-- <div v-if="filteredEvents.mainStage.length" class="events-list">
-        <h2 class="title">Main stage</h2>
-        <div
-          v-for="event in filteredEvents.mainStage"
-          :key="event.fullSpeaker"
-          class="row"
-          :class="{ current: event.current }"
-        >
-          <p class="col">{{ event.startTime }} - {{ event.endTime }}</p>
-          <p class="col">{{ event.fullSpeaker }}</p>
-          <p class="col">{{ event.title }}</p>
-          <div class="col categories">
-            <p class="label" :class="{ current: event.current }">
-              {{ event.room }}
-            </p>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>

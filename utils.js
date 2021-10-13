@@ -36,7 +36,6 @@ export function getTimestamp(day, time) {
 
 export function generateGoogleCalendarUrl(event) {
   const { title, startTime, endTime, room, fullSpeaker } = event
-
   const startTimeTimestamp = getTimestamp(
     parseInt(event.day),
     convertTime12to24(startTime)

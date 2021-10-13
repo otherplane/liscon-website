@@ -57,7 +57,7 @@ export default {
 
   .row {
     display: grid;
-    grid-template-columns: 285px 1fr minmax(150px, 1fr) 150px;
+    grid-template-columns: 285px 1fr minmax(150px, 1fr) 180px;
     padding: 24px;
     font-size: 18px;
     grid-column-gap: 34px;
@@ -83,8 +83,11 @@ export default {
 
       &.categories {
         justify-content: flex-end;
+        width: 100%;
         .label {
           width: 100%;
+          text-align: center;
+          // font-size: 16px;
         }
       }
 
@@ -111,6 +114,10 @@ export default {
           justify-content: center;
           margin-right: 0;
           margin-left: 0;
+          width: initial;
+          .label {
+            width: initial;
+          }
         }
       }
     }
