@@ -741,20 +741,6 @@
   {
     "miniSummit": "",
     "day": "20",
-    "startTime": "2:20 PM",
-    "endTime": "2:40 PM",
-    "length": 20,
-    "topic": "Side Stage",
-    "title": "Market Making in DeFi",
-    "type": "Workshop",
-    "speaker": "Theo Gonella",
-    "company": "0xProject",
-
-    "room": "Side Stage"
-  },
-  {
-    "miniSummit": "",
-    "day": "20",
     "startTime": "2:40 PM",
     "endTime": "3:00 PM",
     "length": 20,
@@ -885,7 +871,7 @@
     "endTime": "6:00 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Decentralized media streaming with Streamr",
+    "title": "Building decentralized social media apps with Streamr",
     "type": "workshop",
     "speaker": "Bernat Canal",
     "company": "Streamr",
@@ -1063,9 +1049,9 @@
   },
   {
     "miniSummit": "",
-    "day": "21",
-    "startTime": "2:40 PM",
-    "endTime": "3:00 PM",
+    "day": "20",
+    "startTime": "2:20 PM",
+    "endTime": "2:40 PM",
     "length": 20,
     "topic": "Side Stage",
     "title": "N2B: Bringing Ethereum to real use cases",
@@ -1174,8 +1160,8 @@
   {
     "miniSummit": "",
     "day": "21",
-    "startTime": "5:25 PM",
-    "endTime": "5:45 PM",
+    "startTime": "5:05 PM",
+    "endTime": "5:25 PM",
     "length": 20,
     "topic": "Side Stage",
     "title": "DeFi porn: rewinding the data",
@@ -1187,8 +1173,8 @@
   {
     "miniSummit": "",
     "day": "21",
-    "startTime": "5:45 PM",
-    "endTime": "6:05 PM",
+    "startTime": "5:25 PM",
+    "endTime": "5:45 PM",
     "length": 20,
     "topic": "Side Stage",
     "title": "Future of the decentralized web",
@@ -1235,5 +1221,31 @@
     "speaker": "Lea Schmitt & Jeroen Offerjins",
     "company": "Centrifuge",
     "room": "Side Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "21",
+    "startTime": "2:40 PM",
+    "endTime": "3:00 PM",
+    "length": 20,
+    "topic": "Side Stage",
+    "title": "The Age of NFT Capitalism",
+    "type": "Workshop",
+    "speaker": "Jérôme de Tychey",
+    "company": "Cometh",
+    "room": "Side Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "21",
+    "startTime": "12:40 PM",
+    "endTime": "1:00 PM",
+    "length": 20,
+    "topic": "",
+    "title": "Lunch",
+    "type": "",
+    "speaker": "",
+    "company": "",
+    "room": "Main Stage"
   }
 ]
