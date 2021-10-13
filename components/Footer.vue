@@ -5,13 +5,16 @@
         <img src="@/assets/liscon_white.svg" alt="" class="eth-logo" />
         <h4 class="title">{{ $t('footer.title') }}</h4>
         <div class="links">
+          <a rel="noopener noreferrer" @click="() => openPdf('covid')">{{
+            $t('footer.covid_details')
+          }}</a>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdcrMAhYN79_PMScP_NZ9tLhHNojayXonHOJw7uQoJ6HPNaFg/viewform"
             target="_blank"
             rel="noopener noreferrer"
             >{{ $t('footer.invitation_letter') }}</a
           >
-          <a @click="openPdf">{{ $t('footer.terms') }}</a>
+          <a @click="() => openPdf('terms')">{{ $t('footer.terms') }}</a>
         </div>
       </div>
       <div class="bottom">
@@ -50,9 +53,13 @@
 <script>
 export default {
   methods: {
-    openPdf() {
-      const pdf = require('../assets/terms-conditions.pdf')
-      window.open(pdf)
+    openPdf(pdf) {
+      const pdfs = {
+        covid: require('../assets/covid-details.pdf'),
+        terms: require('../assets/terms-conditions.pdf'),
+      }
+
+      window.open(pdfs[pdf])
     },
   },
 }

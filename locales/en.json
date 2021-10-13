@@ -57,7 +57,8 @@
     "footer": {
         "title": "LisCon is a celebration of our culture and values, a coming together of builders, thinkers and creators across the space",
         "invitation_letter": "Request an invitation letter",
-        "terms":  "Terms and conditions" 
+        "terms": "Terms and conditions",
+        "covid_details": "Covid details"
     }
 
 }
