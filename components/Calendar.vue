@@ -13,9 +13,25 @@
           <p>{{ day.key }}</p>
         </div>
       </div>
-      <div v-if="filteredEvents.length" class="events-list">
+
+      <CalendarStage
+        v-if="filteredEvents.mainStage.length"
+        class="stage"
+        :events="filteredEvents.mainStage"
+        stage="Main stage"
+      />
+
+      <CalendarStage
+        v-if="filteredEvents.sideStage.length"
+        class="stage"
+        :events="filteredEvents.sideStage"
+        stage="Side stage"
+      />
+
+      <!-- <div v-if="filteredEvents.mainStage.length" class="events-list">
+        <h2 class="title">Main stage</h2>
         <div
-          v-for="event in filteredEvents"
+          v-for="event in filteredEvents.mainStage"
           :key="event.fullSpeaker"
           class="row"
           :class="{ current: event.current }"
@@ -29,7 +45,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -44,7 +60,7 @@ export default {
     return {
       days: DAYS,
       selected: { label: 'All' },
-      filteredEvents: [],
+      filteredEvents: { mainStage: [], sideStage: [] },
       currentDay: new Date().getUTCDate() === 21 ? '21' : '20',
       currentEvent: null,
       isModalVisible: false,
@@ -102,6 +118,18 @@ export default {
       this.filteredEvents = this.events
         .filter((event) => event.day === this.currentDay)
         .sort((ev1, ev2) => toNumber(ev1.startTime) - toNumber(ev2.startTime))
+        .reduce(
+          (acc, ev) => {
+            if (ev.room.toLowerCase() === 'main stage') {
+              acc.mainStage.push(ev)
+            } else {
+              acc.sideStage.push(ev)
+            }
+
+            return acc
+          },
+          { mainStage: [], sideStage: [] }
+        )
     },
   },
 }
@@ -147,40 +175,11 @@ export default {
       display: flex;
       justify-content: space-around;
     }
-    .row {
-      display: grid;
-      grid-template-columns: 285px 1fr minmax(150px, 1fr) 150px;
-      padding: 24px;
-      font-size: 18px;
-      grid-column-gap: 34px;
-      align-items: center;
-      justify-items: baseline;
-      border-bottom: 1px solid $grey;
-    }
-    .svg-container {
-      cursor: pointer;
-    }
-    .col {
-      // margin: 16px;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
 
-      &.categories {
-        justify-content: flex-end;
-      }
-
-      .label {
-        border: 1px solid $black;
-        width: max-content;
-        padding: 4px 8px;
-      }
-      .current {
-        &.label {
-          border: 1px solid $blue;
-        }
-      }
+    .stage {
+      margin-bottom: 1rem;
     }
+
     .day {
       margin: 16px;
       font-size: 24px;
@@ -189,6 +188,7 @@ export default {
     }
   }
 }
+
 @media (max-width: 930px) {
   .agenda {
     justify-content: flex-start;
@@ -204,32 +204,6 @@ export default {
     .content {
       display: flex;
       flex-direction: column;
-      // grid-template-columns: 70px 1fr;
-      // grid-column-gap: 24px;
-      // justify-content: flex-start;
-
-      .day-switch {
-        // flex-direction: column;
-        // justify-content: initial;
-      }
-
-      .events-list {
-        .row {
-          display: flex;
-          flex-direction: column;
-
-          .col {
-            text-align: center;
-            margin: 8px;
-
-            &.categories {
-              justify-content: center;
-              margin-right: 0;
-              margin-left: 0;
-            }
-          }
-        }
-      }
     }
   }
 }
