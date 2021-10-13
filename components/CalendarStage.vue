@@ -7,7 +7,15 @@
       class="row"
       :class="{ current: event.current }"
     >
-      <p class="col">{{ event.startTime }} - {{ event.endTime }}</p>
+      <div class="col">
+        <p>{{ event.startTime }} - {{ event.endTime }}</p>
+        <a
+          class="link-calendar"
+          :href="`https://www.google.com/calendar/render?action=TEMPLATE&text=${event.title}&location=lxfactory%20${event.room}&dates=${event.startTime}%2F${event.endTime}&details=${event.fullSpeaker}`"
+          target="_blank"
+          >Add to calendar</a
+        >
+      </div>
       <p class="col">{{ event.fullSpeaker }}</p>
       <p class="col">{{ event.title }}</p>
       <div class="col categories">
@@ -53,10 +61,14 @@ export default {
     border-bottom: 1px solid $grey;
 
     .col {
-      // margin: 16px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+
+      .link-calendar {
+        margin: 4px;
+        font-size: 14px;
+      }
 
       &.categories {
         justify-content: flex-end;
