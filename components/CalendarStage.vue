@@ -18,9 +18,9 @@
       </div>
       <p class="col">{{ event.fullSpeaker }}</p>
       <p class="col">{{ event.title }}</p>
-      <div class="col categories">
+      <div v-if="event.miniSummit" class="col categories">
         <p class="label" :class="{ current: event.current }">
-          {{ event.room }}
+          {{ event.miniSummit }}
         </p>
       </div>
     </div>
