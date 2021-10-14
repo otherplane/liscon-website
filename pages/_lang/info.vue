@@ -61,7 +61,7 @@
           There are several pharmacies in Lisbon to do an Antigen test, results
           take typically 15 mins. You can find the list of pharmacies
           <a
-            href="https://goo.gl/maps/WCCL4RM2SUnm21br8"
+            href="https://www.lisboa.pt/lisboaprotege/saude"
             target="_blank"
             rel="noopener noreferrer"
             >here</a
@@ -126,12 +126,12 @@
 
     .title {
       font-size: 1.5rem;
-      margin: 1rem 0;
+      margin: 1.5rem 0 1.5rem 0;
     }
 
     .text {
       font-size: 1rem;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       line-height: 1.5;
     }
   }
