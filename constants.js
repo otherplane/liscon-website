@@ -186,4 +186,40 @@ export const SPONSORS = [
     img: 'yapglobal-logo.png',
     type: 'partner',
   },
+  {
+    url: 'https://www.ethichub.com',
+    name: 'EthicHub',
+    img: 'ethichub.png',
+    type: 'partner',
+  },
+  {
+    url: 'https://figment.io/',
+    name: 'Figment',
+    img: 'figment.svg',
+    type: 'partner',
+  },
+  {
+    url: 'https://www.harmony.one',
+    name: 'Harmony',
+    img: 'harmony.svg',
+    type: 'partner',
+  },
+  {
+    url: 'https://lido.fi',
+    name: 'Lido',
+    img: 'lido.svg',
+    type: 'partner',
+  },
+  {
+    url: 'https://near.org',
+    name: 'Near',
+    img: 'near.png',
+    type: 'partner',
+  },
+  {
+    url: 'https://www.mai.finance',
+    name: 'QiDao',
+    img: 'qidao.svg',
+    type: 'partner',
+  },
 ]
