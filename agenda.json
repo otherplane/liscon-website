@@ -229,7 +229,7 @@
     "topic": "Coordination & Digital Orgs",
     "title": "How to scale a DAO",
     "type": "talk",
-    "speaker": "Juan",
+    "speaker": "Juan Guillen",
     "company": "SES MakerDAO",
     "room": "Main Stage"
   },
@@ -256,7 +256,7 @@
     "title": "PFPs, DAOs and Public Goods",
     "type": "talk",
     "speaker": "Manu Alzuru",
-    "company": "DuinGood",
+    "company": "DoinGud",
     "room": "Main Stage"
   },
   {
@@ -281,7 +281,7 @@
     "topic": "Coordination & Digital Orgs",
     "title": "DAOs",
     "type": "talk",
-    "speaker": "Dennison Berttram",
+    "speaker": "Magic Internet Society",
     "company": "Tally",
     "room": "Main Stage"
   },
@@ -432,8 +432,8 @@
   {
     "miniSummit": "DeFi & Value Flows",
     "day": "21",
-    "startTime": "12:45 PM",
-    "endTime": "1:05 PM",
+    "startTime": "12:40 PM",
+    "endTime": "1:00 PM",
     "length": 20,
     "topic": "Layers, Future, Vibes",
     "title": "DarkFi - The Coming Storm",
@@ -450,7 +450,7 @@
     "length": 20,
     "topic": "DeFi & Value Flows",
     "title": "Gnosis Safe beyond Multisig",
-    "type": "panel",
+    "type": "talk",
     "speaker": "Richard Meissner",
     "room": "Main Stage",
     "company": "Gnosis"
@@ -488,7 +488,7 @@
     "endTime": "2:30 PM",
     "length": 30,
     "topic": "NFTs & Creator Economy",
-    "title": "Gaming & Crypto",
+    "title": "The future of Play to Earn",
     "type": "panel",
     "speaker": "Loren Roosendaal - Ember Sword, Jarrell James - Celo, Andrew Campbell - Axie Infinity, Simone Conti - Dialectic, Jose Maria Macedo - Delphi Digital",
     "room": "Main Stage",
@@ -501,7 +501,7 @@
     "endTime": "3:00 PM",
     "length": 30,
     "topic": "NFTs & Creator Economy",
-    "title": "TBD",
+    "title": "The Evolution of NFTs",
     "type": "panel",
     "speaker": "Lili Feyerabend, Will Papper, Santiago R Santos",
     "room": "Main Stage",
@@ -1082,7 +1082,7 @@
     "endTime": "3:40 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Shutter - Preventing malicious MEV and Frontrunning",
+    "title": "Jannik Luhn",
     "type": "Workshop",
     "speaker": "Luis Bezzenberger",
 
@@ -1245,6 +1245,19 @@
     "title": "Lunch",
     "type": "",
     "speaker": "",
+    "company": "",
+    "room": "Main Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "21",
+    "startTime": "5:20 PM",
+    "endTime": "5:40 PM",
+    "length": 20,
+    "topic": "",
+    "title": "Building Virality in Web3",
+    "type": "talk",
+    "speaker": "Pplpleasr",
     "company": "",
     "room": "Main Stage"
   }
