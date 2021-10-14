@@ -71,7 +71,7 @@
     "endTime": "11:00 AM",
     "length": 20,
     "topic": "Layers, Future, Vibes",
-    "title": "The game of reorgs in eth2",
+    "title": "The game of reorgs in PoS Ethereum",
     "type": "talk",
     "speaker": "Caspar Schwarz-Schilling",
     "company": "EF",
@@ -1249,7 +1249,7 @@
     "room": "Main Stage"
   },
   {
-    "miniSummit": "",
+    "miniSummit": "NFTs & the Creator Economy",
     "day": "21",
     "startTime": "5:20 PM",
     "endTime": "5:40 PM",
