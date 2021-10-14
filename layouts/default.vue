@@ -1,6 +1,7 @@
 <template>
   <div class="background">
     <Marquee />
+    <NavBar />
     <Nuxt />
     <Footer />
   </div>

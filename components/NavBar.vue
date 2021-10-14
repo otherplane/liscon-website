@@ -2,10 +2,45 @@
   <nav class="navbar">
     <ul class="tab-container">
       <li class="tab">
-        <a class="tab" href="/agenda">
-          <span class="slash">/</span>
-          <span class="text">{{ $t('navbar.agenda') }}</span>
-        </a>
+        <router-link
+          v-slot="{ isExactActive, href, navigate }"
+          custom
+          class="tab"
+          to="/"
+        >
+          <nav-link :href="href" @click="navigate">
+            <span class="slash">/</span>
+            <span class="text" :class="{ active: isExactActive }">{{
+              $t('navbar.home')
+            }}</span>
+          </nav-link>
+        </router-link>
+        <router-link
+          v-slot="{ isExactActive, href, navigate }"
+          custom
+          class="tab"
+          to="/info"
+        >
+          <nav-link :href="href" @click="navigate">
+            <span class="slash">/</span>
+            <span class="text" :class="{ active: isExactActive }">{{
+              $t('navbar.info')
+            }}</span>
+          </nav-link>
+        </router-link>
+        <router-link
+          v-slot="{ isExactActive, href, navigate }"
+          custom
+          class="tab"
+          to="/agenda"
+        >
+          <nav-link :href="href" @click="navigate">
+            <span class="slash">/</span>
+            <span class="text" :class="{ active: isExactActive }">{{
+              $t('navbar.agenda')
+            }}</span>
+          </nav-link>
+        </router-link>
       </li>
     </ul>
   </nav>
@@ -15,9 +50,9 @@
 .navbar {
   display: flex;
   position: absolute;
-  left: 0;
-  right: 32px;
-  top: 20;
+  // left: 0;
+  right: 0;
+  top: 40px;
   background: transparent;
   justify-content: flex-end;
   margin: 0 auto;
@@ -33,12 +68,13 @@
       align-items: center;
       text-decoration: none;
       font-family: 'RousseauDeco', sans-serif;
-      padding: 0.5rem;
+      padding: 0.75rem;
 
       .slash {
         color: $blue;
       }
-      .text:hover {
+      .text:hover,
+      .active {
         text-decoration: underline;
         text-decoration-color: $yellow;
         text-underline-offset: 5px;

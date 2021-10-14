@@ -18,7 +18,7 @@
   background-image: url('@/assets/background-2.svg');
   background-repeat: repeat;
   background-position: center;
-  margin: 2rem 0;
+  padding: 5rem 0 2rem 0;
 
   .img {
     width: 300px;

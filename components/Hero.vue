@@ -20,7 +20,7 @@
   height: 540px;
   background-image: url('@/assets/grid.svg');
   background-repeat: no-repeat;
-  background-position: 50% 42%;
+  background-position: 58% 42%;
 
   .logo {
     display: flex;
