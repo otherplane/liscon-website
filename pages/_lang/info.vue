@@ -132,6 +132,7 @@
     .text {
       font-size: 1rem;
       margin-bottom: 1rem;
+      line-height: 1.5;
     }
   }
 }
