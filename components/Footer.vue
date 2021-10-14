@@ -5,9 +5,6 @@
         <img src="@/assets/liscon_white.svg" alt="" class="eth-logo" />
         <h4 class="title">{{ $t('footer.title') }}</h4>
         <div class="links">
-          <a rel="noopener noreferrer" @click="() => openPdf('covid')">{{
-            $t('footer.covid_details')
-          }}</a>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSdcrMAhYN79_PMScP_NZ9tLhHNojayXonHOJw7uQoJ6HPNaFg/viewform"
             target="_blank"
