@@ -294,7 +294,7 @@
     "topic": "Coordination & Digital Orgs",
     "title": "Venture 3.0 for Web 3.0",
     "type": "panel",
-    "speaker": "Nima Ashgari - SeedClub Ventures, Julia Lipton - Awesome People Ventures, Jihad Esmail - SyndicateDAO, Manasi Vora - Komorebi Fund",
+    "speaker": "Nima Ashgari - SeedClub Ventures, Julia Lipton - Awesome People Ventures, Mona El Isa - Enzyme, Manasi Vora - Komorebi Fund",
     "company": "",
     "room": "Main Stage"
   },
@@ -440,7 +440,7 @@
     "type": "talk",
     "speaker": "Amir Taaki, Rachel-Rose O'Leary",
     "room": "Main Stage",
-    "company": "DarkFi"
+    "company": ""
   },
   {
     "miniSummit": "DeFi & Value Flows",
@@ -706,7 +706,7 @@
     "title": "Developing a fully compatible zkEVM",
     "type": "Workshop",
     "speaker": "Jordi Baylina",
-    "company": "Hermez Network",
+    "company": "Polygon Hermez",
 
     "room": "Side Stage"
   },
@@ -1258,6 +1258,19 @@
     "title": "Building Virality in Web3",
     "type": "talk",
     "speaker": "Pplpleasr",
+    "company": "",
+    "room": "Main Stage"
+  },
+  {
+    "miniSummit": "",
+    "day": "20",
+    "startTime": "6:10 PM",
+    "endTime": "9:10 PM",
+    "length": 180,
+    "topic": "",
+    "title": "LisCon Networking Event powered by Figment",
+    "type": "drinks",
+    "speaker": "",
     "company": "",
     "room": "Main Stage"
   }

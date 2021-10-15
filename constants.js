@@ -91,6 +91,12 @@ export const SPONSORS = [
     type: 'silver',
   },
   {
+    url: 'https://yapglobal.com/',
+    name: 'Yap global',
+    img: 'yapglobal-logo.png',
+    type: 'silver',
+  },
+  {
     url: 'https://witnet.io/',
     name: 'Witnet',
     img: 'witnet-logo.svg',
@@ -179,12 +185,6 @@ export const SPONSORS = [
     name: 'Tally',
     img: 'tally-logo.png',
     type: 'partner round',
-  },
-  {
-    url: 'https://yapglobal.com/',
-    name: 'Yap global',
-    img: 'yapglobal-logo.png',
-    type: 'partner',
   },
   {
     url: 'https://www.ethichub.com',
