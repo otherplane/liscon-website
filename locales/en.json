@@ -22,8 +22,8 @@
     "navbar": {
         "agenda": "AGENDA",
         "info": "INFo",
-        "home": "HoME",
-        "nft": "NFT GALLERY"
+        "nft": "NFT GALLERY",
+        "home": "HoME"
     },
     "participate": {
         "title": "PARTICIPATE",
