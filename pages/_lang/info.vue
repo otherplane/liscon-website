@@ -22,7 +22,7 @@
       <p class="text">
         All ticket holders must have EU vaccine certificates or a negative PCR
         test result valid for 72 hours or a negative Antigen test result valid
-        for 48 hours to gain entry to the event.
+        for 48 hours or a valid recovery certificate to gain entry to the event.
       </p>
 
       <p class="text">
