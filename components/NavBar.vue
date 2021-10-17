@@ -77,8 +77,10 @@
       cursor: pointer;
       font-size: 1.5rem;
       display: flex;
+      flex-wrap: wrap;
       color: $blue;
       align-items: center;
+      justify-content: flex-end;
       text-decoration: none;
       font-family: 'RousseauDeco', sans-serif;
       padding: 0.75rem;

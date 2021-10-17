@@ -24,4 +24,9 @@
     width: 300px;
   }
 }
+@media (max-width: 500px) {
+  .talks {
+    padding-top: 8rem;
+  }
+}
 </style>
