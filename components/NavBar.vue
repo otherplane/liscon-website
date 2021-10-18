@@ -88,11 +88,6 @@ export default {
       isMenuVisible: false,
     }
   },
-  watch: {
-    $route() {
-      this.closeMenu()
-    },
-  },
   methods: {
     closeMenu() {
       this.isMenuVisible = false
