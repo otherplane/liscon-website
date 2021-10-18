@@ -983,10 +983,9 @@
     "endTime": "11:40 AM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "The Interoperability Trilemma",
+    "title": "The Interoperability Trilemma: Why bridging is so damn difficult",
     "type": "Workshop",
-    "speaker": "Arjun Bhuptani",
-
+    "speaker": "Layne Haber",
     "room": "Side Stage",
     "company": "Connext"
   },
@@ -1095,9 +1094,9 @@
     "endTime": "3:40 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Jannik Luhn",
+    "title": "Shutter - Preventing malicious MEV and Frontrunning",
     "type": "Workshop",
-    "speaker": "Luis Bezzenberger",
+    "speaker": "Ulrich Petri",
 
     "room": "Side Stage",
     "company": "Shutter"
