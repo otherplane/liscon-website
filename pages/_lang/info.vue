@@ -141,7 +141,7 @@
 }
 @media (max-width: 500px) {
   .wrapper .info {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
 }
 </style>

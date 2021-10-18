@@ -26,7 +26,7 @@
 }
 @media (max-width: 500px) {
   .talks {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
 }
 </style>
