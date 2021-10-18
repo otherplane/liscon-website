@@ -1,6 +1,5 @@
 <template>
   <div class="wrapper">
-    <NavBar />
     <div class="info">
       <a class="img-wrapper" href="/">
         <img class="img" src="@/assets/liscon_logo.png" alt="Go back" />
