@@ -28,8 +28,8 @@
   {
     "miniSummit": "INTRO",
     "day": "20",
-    "startTime": "9:47 AM",
-    "endTime": "9:57 AM",
+    "startTime": "9:50 AM",
+    "endTime": "10:00 AM",
     "length": 10,
     "topic": "ORG TEAM",
     "title": "LisCon House Rules",
@@ -227,7 +227,7 @@
     "endTime": "3:10 PM",
     "length": 20,
     "topic": "Coordination & Digital Orgs",
-    "title": "It's all coordination & it always has been",
+    "title": "The Greatest LARP",
     "type": "talk",
     "speaker": "Kevin Owocki",
     "company": "Gitcoin",
@@ -292,7 +292,7 @@
     "endTime": "5:00 PM",
     "length": 20,
     "topic": "Coordination & Digital Orgs",
-    "title": "DAOs",
+    "title": "Dennison Bertram",
     "type": "talk",
     "speaker": "Magic Internet Society",
     "company": "Tally",
@@ -510,19 +510,6 @@
   {
     "miniSummit": "NFTs & the Creator Economy",
     "day": "21",
-    "startTime": "2:30 PM",
-    "endTime": "3:00 PM",
-    "length": 30,
-    "topic": "NFTs & Creator Economy",
-    "title": "The Evolution of NFTs",
-    "type": "panel",
-    "speaker": "Lili Feyerabend, Will Papper, Santiago R Santos",
-    "room": "Main Stage",
-    "company": "Mix"
-  },
-  {
-    "miniSummit": "NFTs & the Creator Economy",
-    "day": "21",
     "startTime": "3:00 PM",
     "endTime": "3:20 PM",
     "length": 20,
@@ -563,7 +550,7 @@
     "miniSummit": "NFTs & the Creator Economy",
     "day": "21",
     "startTime": "4:10 PM",
-    "endTime": "4:30 PM",
+    "endTime": "4:35 PM",
     "length": 20,
     "topic": "NFTs & Creator Economy",
     "title": "Lost In The Metaverse",
@@ -575,8 +562,8 @@
   {
     "miniSummit": "NFTs & the Creator Economy",
     "day": "21",
-    "startTime": "5:10 PM",
-    "endTime": "5:40 PM",
+    "startTime": "4:55 PM",
+    "endTime": "5:20 PM",
     "length": 30,
     "topic": "NFTs & Creator Economy",
     "title": "Art in conversation",
@@ -588,8 +575,8 @@
   {
     "miniSummit": "NFTs & the Creator Economy",
     "day": "21",
-    "startTime": "6:10 PM",
-    "endTime": "6:30 PM",
+    "startTime": "5:40 PM",
+    "endTime": "6:00 PM",
     "length": 20,
     "topic": "CLOSING",
     "title": "Closing ceremony",
@@ -910,10 +897,10 @@
     "miniSummit": "",
     "day": "21",
     "startTime": "9:20 AM",
-    "endTime": "9:50 AM",
-    "length": 30,
+    "endTime": "9:45 AM",
+    "length": 25,
     "topic": "Side Stage",
-    "title": "Decentralized Science",
+    "title": "DECENTRALIZED SCIENCE",
     "type": "panel",
     "speaker": "Bianca Trovò - Ants Review, Sarah Hamburg - Opscientia, Tyler Golato - VitaDAO",
 
@@ -998,7 +985,7 @@
     "topic": "Side Stage",
     "title": "Building New Societies with Ethereum",
     "type": "Workshop",
-    "speaker": "peth",
+    "speaker": "Peter Jursic",
 
     "room": "Side Stage",
     "company": "Meta Game"
@@ -1122,9 +1109,9 @@
     "endTime": "4:20 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Errol Drummond",
+    "title": "How Aleo Rollup scales NFTs",
     "type": "Workshop",
-    "speaker": "Howard Wu",
+    "speaker": "Errol Drummond",
 
     "room": "Side Stage",
     "company": "Aleo"
@@ -1290,7 +1277,7 @@
     "miniSummit": "",
     "day": "21",
     "startTime": "9:45 AM",
-    "endTime": "9:10 PM",
+    "endTime": "10:00 PM",
     "length": 15,
     "topic": "",
     "title": "How to launch sentient NFTs and lvl up DeFi",
@@ -1298,5 +1285,18 @@
     "speaker": "James Key",
     "company": "Autonomy",
     "room": "Side Stage"
+  },
+  {
+    "miniSummit": "NFTs & the Creator Economy",
+    "day": "21",
+    "startTime": "4:35 PM",
+    "endTime": "4:55 PM",
+    "length": 15,
+    "topic": "",
+    "title": "TBD",
+    "type": "Workshop",
+    "speaker": "Coin Artist",
+    "company": "Blockade Games",
+    "room": "Main Stage"
   }
 ]
