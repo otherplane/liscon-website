@@ -292,9 +292,9 @@
     "endTime": "5:00 PM",
     "length": 20,
     "topic": "Coordination & Digital Orgs",
-    "title": "Dennison Bertram",
+    "title": "Magic Internet Society",
     "type": "talk",
-    "speaker": "Magic Internet Society",
+    "speaker": "Dennison Bertram",
     "company": "Tally",
     "room": "Main Stage"
   },
@@ -399,7 +399,7 @@
     "topic": "DeFi & Value Flows",
     "title": "DeFi UX: Where are we?",
     "type": "panel",
-    "speaker": "Hester Bruikham, Carl Fairclough - Status, Seb Audet - Zapper, Sergej Kunz - 1inch, Soren Peter Nielsen - Oasis",
+    "speaker": "Hester Bruikham - Status, Evgeny Yurtaev - Zerion, Seb Audet @ Zapper, Sergej Kunz @ 1inch, Soren Peter Nielsen @ Oasis",
     "room": "Main Stage",
     "company": "Mix"
   },
@@ -504,6 +504,19 @@
     "title": "The future of Play to Earn",
     "type": "panel",
     "speaker": "Loren Roosendaal - Ember Sword, Jarrell James - Celo, Andrew Campbell - Axie Infinity, Simone Conti - Dialectic, Jose Maria Macedo - Delphi Digital",
+    "room": "Main Stage",
+    "company": "Mix"
+  },
+    {
+    "miniSummit": "NFTs & the Creator Economy",
+    "day": "21",
+    "startTime": "2:30 PM",
+    "endTime": "3:00 PM",
+    "length": 30,
+    "topic": "NFTs & Creator Economy",
+    "title": "The Evolution of NFTs",
+    "type": "panel",
+    "speaker": "Lili Feyerabend, Will Papper, Santiago R Santos, Pplplsr",
     "room": "Main Stage",
     "company": "Mix"
   },
@@ -902,7 +915,7 @@
     "topic": "Side Stage",
     "title": "DECENTRALIZED SCIENCE",
     "type": "panel",
-    "speaker": "Bianca Trovò - Ants Review, Sarah Hamburg - Opscientia, Tyler Golato - VitaDAO",
+    "speaker": "Bianca Trovò - Ants Review, Juri Stricker - Signature Ventures, Tyler Golato - VitaDAO",
 
     "room": "Side Stage",
     "company": "Mix"
@@ -1189,7 +1202,7 @@
     "endTime": "2:00 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "Bridging Web2 Creatives into Web3",
+    "title": "Urban Planning as a Community Design Framework",
     "type": "Workshop",
     "speaker": "Alex Zhang",
     "company": "FwB",
