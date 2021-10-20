@@ -4,9 +4,6 @@
       <img class="icon" src="@/assets/liscon_logo.png" />
       <p class="subtitle date">{{ $t('hero.title_subtitle') }}</p>
       <p class="subtitle location">{{ $t('hero.location') }}</p>
-      <Button type="style" class="count">
-        <Countdown />
-      </Button>
     </div>
   </div>
 </template>
