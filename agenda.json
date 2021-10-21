@@ -1122,7 +1122,7 @@
     "endTime": "4:20 PM",
     "length": 20,
     "topic": "Side Stage",
-    "title": "How Aleo Rollup scales NFTs",
+    "title": "How zkSNARKs can provide value: an example with ZEXE",
     "type": "Workshop",
     "speaker": "Errol Drummond",
 
@@ -1306,9 +1306,9 @@
     "endTime": "4:55 PM",
     "length": 15,
     "topic": "",
-    "title": "TBD",
+    "title": "Fireside Chat with Blockade Games",
     "type": "Workshop",
-    "speaker": "Coin Artist",
+    "speaker": "Coin Artist, Kyle Chivers",
     "company": "Blockade Games",
     "room": "Main Stage"
   }
